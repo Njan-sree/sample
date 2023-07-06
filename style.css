@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Dancing+Script&family=Fasthand&family=Kalam:wght@700&family=Kaushan+Script&family=Lobster&family=Poiret+One&family=Russo+One&family=Varela+Round&display=swap');
+:root{
+    --pr:rgb(255, 142, 12); /* primary color*/
+    --mnclr:rgb(56, 56, 56); /* main background color*/
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    width: 100%;
+    box-shadow: 1px 14px 50px rgba(0, 0, 0, 0.5);
+    position: absolute;
+}
+ul{
+    display: flex;
+    margin-top: 30px;
+
+}
+li{
+    list-style: none;
+
+}
+li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: 2px;
+    margin-right: 50px;
+    
+
+
+}
+li a:hover{
+    text-decoration: none;
+    border-bottom: 1px solid var(--pr);
+    color: var(--pr);
+}
+h2{
+    margin-left: 30px;
+    text-transform: uppercase;
+}
+#search-box{
+    border-radius: 15px;
+    border-width: 1px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+/* header section end */
+
