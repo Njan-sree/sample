@@ -279,4 +279,70 @@ button{
 #sps p{
     font-size: 20px;
     margin: 20px 100px;
+    margin-bottom: 100px;
+}
+#ftr{
+    height: 80vh;
+    background-image: url(images/pic3.jpg);
+    background-position: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#flw{
+    color: white;
+    
+}
+#flw img{
+    width: 30px;
+    margin: 10px;
+    
+}
+#ms{
+    width: 40%;
+    height: fit-content;
+    color: antiquewhite;
+    margin-top: 30px;
+    background-color: var(--pr);
+    padding: 20px;
+    border-radius: 15px 15px 0px 0px;
+    
+}
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  box-sizing: border-box;
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical ;
+}
+
+
+input[type=submit] {
+  background-color: var(--pr);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #ffffff;
+}
+
+footer{
+    background-color: rgb(85, 83, 83);
+    color: white;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    height: 20vh;
+}
+footer img{
+    width: 30px;
+    margin: 20px 40px;
 }

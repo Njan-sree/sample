@@ -13,7 +13,7 @@
         <div class="header">
             <div class="row">
             
-                <div class="col-sm-5">
+                <div class="col-sm-5 col-md-5 col-xs-12">
                     <h2>logo</h2>
                 </div>
                 <div class="col-sm-7">
@@ -33,7 +33,7 @@
         </div>
     </section>
 
-    <section id="mn1">
+    <section id="mn1" class="col">
         <div class="outer">
             <img src="images/img1.jpg" >
             <div class="dtl">
@@ -170,21 +170,40 @@
 
     <!-- message and contact seatails  -->
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <div class="row" id="ftr">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" id="flw">
                 
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <div class="msg">
-                    <h4>contact us</h4>
-                    <input type="text" placeholder="name">
-                    <input type="email" placeholder="email">
-                    <input type="message" placeholder="message here">
-                    <button>send</button>
-                </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" id="ms">
+                <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:150px"></textarea>
+
+    <input type="submit" value="Submit">
             </div>
         </div>
     </div>
+
+    <footer>
+        <img src="images/sm1.png" >
+        <img src="images/sm2.png" >
+        <img src="images/am3.png" >
+    </footer>
+
+
+    <script src="script.js"></script>
 
 
 </body>
